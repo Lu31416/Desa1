@@ -29,11 +29,11 @@ reverso = numero[::-1]
 print("O reverso do número é:", reverso)
 '''
 
-def celsius_para_fahrenheit(celsius):
+def c_p_f(celsius):
     fahrenheit = celsius * 9/5 + 32
     return fahrenheit
 
-def fahrenheit_para_celsius(fahrenheit):
+def f_p_c(fahrenheit):
     celsius = (fahrenheit - 32) * 5/9
     return celsius
 
@@ -41,18 +41,18 @@ def menu():
     print("Escolha uma opção:")
     print("1. Converter de Celsius para Fahrenheit")
     print("2. Converter de Fahrenheit para Celsius")
-    opcao = int(input("Digite o número da opção desejada: "))
+    opcao = int(input("slecione uma opcao "))
 
     if opcao == 1:
         celsius = float(input("Digite a temperatura em Celsius: "))
-        fahrenheit = celsius_para_fahrenheit(celsius)
+        fahrenheit = c_p_f(celsius)
         print(f"A temperatura em Fahrenheit é: {fahrenheit:.2f}")
     elif opcao == 2:
         fahrenheit = float(input("Digite a temperatura em Fahrenheit: "))
-        celsius = fahrenheit_para_celsius(fahrenheit)
+        celsius = f_p_c(fahrenheit)
         print(f"A temperatura em Celsius é: {celsius:.2f}")
     else:
-        print("Opção inválida!")
+        print("intente de nuevo")
 
 menu()
 
