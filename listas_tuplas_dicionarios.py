@@ -38,7 +38,7 @@ for chave, valor in valores.items():
     else:
         print('los valores son:', chave, valor)
 '''
-
+'''
 perguntas ={
     'Telefonou para a vítima?' : '',
     'Esteve no local do crime?': '',
@@ -61,3 +61,4 @@ elif 2 <= respostas_positivas < 3:
     print('suspeita')
 else:
     print('inocente')
+'''

@@ -12,8 +12,9 @@ cels = float(input(f'ingrese temperatura '))
 faren = (cels * 1.8) + 32
 print(f'en farenheit e {faren}')
 '''
-
+'''
 num1 = int(input(f'cuanto voce ganha por hora '))
 num2 = int(input(f'cuantas horas voce trabalha '))
 total = num1*num2
 print(f'seu salario e {total}')
+'''

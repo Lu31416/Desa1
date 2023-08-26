@@ -23,7 +23,7 @@ else:
 while True:
     nota = int(input(f'ingrese una nota entre zero e dez '))
     if nota >=0 and nota <=10:
-        print('very good')
+        print('muy biennn')
         break
     else:
         print('reintente')

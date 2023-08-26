@@ -28,7 +28,7 @@ numero = input("Digite um número inteiro: ")
 reverso = numero[::-1]
 print("O reverso do número é:", reverso)
 '''
-
+'''
 def c_p_f(celsius):
     fahrenheit = celsius * 9/5 + 32
     return fahrenheit
@@ -55,4 +55,4 @@ def menu():
         print("intente de nuevo")
 
 menu()
-
+'''
