@@ -30,19 +30,19 @@ else:
 
 print(f'seu novo salario sera {novosalario}')
 '''
-
+'''
 def leiaInt(mensagem):
     while True:
         try:
             valor = int(input(mensagem))
             return valor
         except ValueError:
-            print("Valor inválido. Por favor, digite um número inteiro.")
+            print("Valor inválido. ")
 
-n = leiaInt('Digite um número inteiro: ')
+n = leiaInt('Digite um número')
 print('Você digitou:', n)
 
-
+'''
 
 
 

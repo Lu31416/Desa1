@@ -5,9 +5,9 @@ def soma(a,b):
         calculo = a/b
         print(f'o resultado da soma e {calculo}')
     except ZeroDivisionError:
-        print('no es posible')
+        print('no e posivel')
     except TypeError as e:
-        print(f'no se puedeeeeeee')
+        print(f'no podee')
 
 
 

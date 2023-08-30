@@ -19,11 +19,12 @@ elif turno =="N":
 else:
     print('valor invalido!')
 '''
-
+'''
 while True:
     nota = int(input(f'ingrese una nota entre zero e dez '))
     if nota >=0 and nota <=10:
-        print('muy biennn')
+        print('muito bem')
         break
     else:
         print('reintente')
+'''
